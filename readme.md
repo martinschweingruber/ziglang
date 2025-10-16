@@ -29,10 +29,10 @@ zig run main.zig
 ```bash
 cd 01_simple_exe
 
-# create you build.zip
+# create you build.zip and run with
 zig build --summary all
 
-# add the run step
+# add the run step and run with
 zig build run --summary all
 
 # add add standard config option like build mode
